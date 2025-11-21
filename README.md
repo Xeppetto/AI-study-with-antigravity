@@ -67,6 +67,16 @@ AI를 본격적으로 학습하기 전에 알아두면 좋은 기초 개념들�
 - [Anomaly Detection (이상 탐지)](./Learn_AI/AnomalyDetection.md)
 - [Robotics (로봇 공학)](./Learn_AI/Robotics.md)
 - [Self-Supervised Learning (자기지도 학습)](./Learn_AI/SelfSL.md)
+- [Explainable AI (XAI, 설명 가능한 AI)](./Learn_AI/ExplainableAI.md)
+- [Fairness in AI (AI 공정성)](./Learn_AI/FairnessInAI.md)
+- [Adversarial Attacks (적대적 공격)](./Learn_AI/AdversarialAttacks.md)
+- [Model Compression (모델 경량화)](./Learn_AI/ModelCompression.md)
+- [Edge AI (에지 AI)](./Learn_AI/EdgeAI.md)
+- [Neuromorphic Computing (뉴로모픽 컴퓨팅)](./Learn_AI/NeuromorphicComputing.md)
+- [Swarm Intelligence (집단 지성)](./Learn_AI/SwarmIntelligence.md)
+- [Evolutionary Algorithms (진화 알고리즘)](./Learn_AI/EvolutionaryAlgorithms.md)
+- [Bayesian Networks (베이지안 네트워크)](./Learn_AI/BayesianNetworks.md)
+- [Causal Inference (인과 추론)](./Learn_AI/CausalInference.md)
 
 ## 4. AI 심화 지식
 최신 연구 동향과 심화된 모델들을 다룹니다.
