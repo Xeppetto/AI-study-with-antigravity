@@ -18,7 +18,7 @@ JEPA는 두 개의 입력(예: 비디오의 현재 프레임과 미래 프레임
 ### 2.3. World Model (세계 모델)
 LeCun은 JEPA를 통해 AI가 내부적인 **World Model**을 구축할 수 있다고 봅니다. World Model은 세상이 어떻게 작동하는지에 대한 압축된 지식으로, AI가 행동의 결과를 미리 시뮬레이션하고 복잡한 작업을 계획하는 데 필수적입니다.
 
-### 2.4. Energy-Based Model (EBM)
+### 2.4. [Energy-Based Model (EBM)](./EBM.md)
 JEPA는 에너지 기반 모델의 일종으로 볼 수 있습니다. 예측된 표현과 실제 타겟 표현 사이의 차이(에너지)를 최소화하는 방향으로 학습합니다. 에너지가 낮을수록 두 표현이 호환됨(Compatible)을 의미합니다.
 
 ## 3. 주요 특징 및 장점 (Features & Benefits)
@@ -36,7 +36,7 @@ JEPA를 깊이 있게 이해하기 위해서는 다음의 개념들에 대한 �
     - Generative vs. Discriminative vs. Joint-Embedding Methods
     - Pretext Tasks (Inpainting, Prediction etc.)
 
-2.  **Energy-Based Models (EBM, 에너지 기반 모델)**
+2.  **[Energy-Based Models (EBM, 에너지 기반 모델)](./EBM.md)**
     - Energy Function의 개념
     - Contrastive Methods (대조 학습) vs. Regularized Methods (정규화 방법)
     - Collapse (붕괴) 문제와 해결책
@@ -46,8 +46,8 @@ JEPA를 깊이 있게 이해하기 위해서는 다음의 개념들에 대한 �
     - Feature Extraction (특징 추출)
     - Invariance (불변성) & Equivariance (공변성)
 
-4.  **Deep Learning Basics**
+4.  **[Deep Learning Basics](./DLBasic.md)**
     - Encoder-Decoder Architectures
-    - Loss Functions (L2 distance, Cosine Similarity etc.)
-    - Optimization (Gradient Descent)
+    - [Loss Functions (L2 distance, Cosine Similarity etc.)](./DLBasic.md)
+    - [Optimization (Gradient Descent)](./DLBasic.md)
 

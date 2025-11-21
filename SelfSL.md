@@ -1,9 +1,9 @@
 # Self-Supervised Learning (SSL, 자기지도 학습)
 
 ## 1. 개요 (Overview)
-Self-Supervised Learning(SSL, 자기지도 학습)은 레이블이 지정되지 않은(Unlabeled) 대규모 데이터로부터 데이터 자체의 구조나 패턴을 학습하여 유용한 표현(Representation)을 얻는 머신러닝 패러다임입니다.
+Self-Supervised Learning(SSL, 자기지도 학습)은 레이블이 지정되지 않은(Unlabeled) 대규모 데이터로부터 데이터 자체의 구조나 패턴을 학습하여 유용한 표현(Representation)을 얻는 [머신러닝(Machine Learning)](./MLBasic.md) 패러다임입니다.
 
-기존의 지도 학습(Supervised Learning)은 사람이 일일이 레이블링한 데이터가 필요하여 비용과 시간이 많이 소요되는 반면, SSL은 데이터 그 자체로부터 "Pseudo-label"을 생성하여 학습하므로 데이터 확장성이 매우 뛰어납니다. 이렇게 학습된 모델은 적은 양의 레이블 데이터만으로도 다운스트림 작업(Downstream Tasks)에서 뛰어난 성능을 발휘합니다. Yann LeCun은 이를 "케이크의 본체(The Cake)"에 비유하며, 지도 학습은 "케이크 위의 장식(The Icing)"에 불과하다고 강조했습니다.
+기존의 [지도 학습(Supervised Learning)](./MLBasic.md)은 사람이 일일이 레이블링한 데이터가 필요하여 비용과 시간이 많이 소요되는 반면, SSL은 데이터 그 자체로부터 "Pseudo-label"을 생성하여 학습하므로 데이터 확장성이 매우 뛰어납니다. 이렇게 학습된 모델은 적은 양의 레이블 데이터만으로도 다운스트림 작업(Downstream Tasks)에서 뛰어난 성능을 발휘합니다. Yann LeCun은 이를 "케이크의 본체(The Cake)"에 비유하며, 지도 학습은 "케이크 위의 장식(The Icing)"에 불과하다고 강조했습니다.
 
 ## 2. 핵심 개념 (Key Concepts)
 
@@ -46,12 +46,12 @@ SSL로 사전 학습(Pre-training)된 모델을 가져와서, 실제로 풀고�
 
 Self-Supervised Learning을 깊이 있게 이해하기 위해서는 다음의 개념들에 대한 사전 지식이 필요합니다. (추후 별도의 문서로 상세히 설명될 예정입니다.)
 
-1.  **Machine Learning Basics (머신러닝 기초)**
-    - Supervised vs. Unsupervised Learning
+1.  **[Machine Learning Basics (머신러닝 기초)](./MLBasic.md)**
+    - [Supervised vs. Unsupervised Learning](./MLBasic.md)
     - Overfitting & Underfitting
-    - Loss Functions (Cross-Entropy, MSE)
+    - [Loss Functions (Cross-Entropy, MSE)](./DLBasic.md)
 
-2.  **Deep Learning Architectures (딥러닝 아키텍처)**
+2.  **[Deep Learning Architectures (딥러닝 아키텍처)](./DLBasic.md)**
     - CNN (Convolutional Neural Networks) - ResNet 등
     - Transformer (Attention Mechanism) - BERT, ViT
     - RNN/LSTM (Sequential Data)

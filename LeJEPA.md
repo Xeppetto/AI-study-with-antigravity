@@ -13,12 +13,12 @@ LeJEPA는 LeCun이 제안한 JEPA 아키텍처를 따릅니다. JEPA는 입력 �
 ### 2.2. Latent-Euclidean Geometry (잠재 유클리드 기하학)
 LeJEPA의 가장 큰 특징은 잠재 공간의 기하학적 구조를 명확히 정의했다는 점입니다. 연구진은 모델의 임베딩이 **등방성 가우시안 분포(Isotropic Gaussian Distribution)**를 따를 때, 다운스트림 작업(Downstream Tasks)에서의 예측 위험(Prediction Risk)이 최소화됨을 이론적으로 증명했습니다. 즉, 임베딩이 모든 방향으로 고르게 퍼져 있으며 중심에 모여 있는 형태가 가장 이상적이라는 것입니다.
 
-### 2.3. SIGReg (Sketched Isotropic Gaussian Regularization)
-위의 이상적인 분포를 실제로 구현하기 위해 LeJEPA는 **SIGReg**라는 새로운 정규화(Regularization) 기법을 도입했습니다.
+### 2.3. [SIGReg (Sketched Isotropic Gaussian Regularization)](./SIGReg.md)
+위의 이상적인 분포를 실제로 구현하기 위해 LeJEPA는 **[SIGReg](./SIGReg.md)**라는 새로운 정규화(Regularization) 기법을 도입했습니다.
 - **Random Projections**: 계산 효율성을 위해 임베딩을 무작위로 투영(Sketching)하여 차원을 축소한 뒤 정규화를 수행합니다.
 - **Variance Regularization**: 임베딩의 분산을 특정 값으로 유지하여 붕괴(Collapse)를 방지합니다.
 - **Invariance Regularization**: 서로 다른 뷰의 임베딩이 비슷해지도록 유도합니다.
-SIGReg는 기존의 복잡한 손실 함수나 트릭 없이도 모델이 효과적인 표현을 학습하도록 돕습니다.
+SIGReg는 기존의 복잡한 [손실 함수(Loss Function)](./DLBasic.md)나 트릭 없이도 모델이 효과적인 표현을 학습하도록 돕습니다.
 
 ### 2.4. Heuristics 제거 (Elimination of Heuristics)
 기존 SSL 모델(예: BYOL, DINO, SimCLR 등)은 학습 붕괴를 막기 위해 다음과 같은 기법들을 사용했습니다.
@@ -56,7 +56,7 @@ LeJEPA를 깊이 있게 이해하기 위해서는 다음의 개념들에 대한 
     - Covariance Matrix (공분산 행렬)
     - Random Projections (무작위 투영)
 
-4.  **Deep Learning Architectures (딥러닝 아키텍처)**
+4.  **[Deep Learning Architectures (딥러닝 아키텍처)](./DLBasic.md)**
     - Vision Transformers (ViT)
     - Encoder-Decoder 구조 vs. Encoder-Predictor 구조
 
