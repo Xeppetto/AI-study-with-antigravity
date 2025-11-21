@@ -87,6 +87,16 @@ AI를 본격적으로 학습하기 전에 알아두면 좋은 기초 개념들�
 - [Facial Recognition (안면 인식)](./Learn_AI/FacialRecognition.md)
 - [Sentiment Analysis (감성 분석)](./Learn_AI/SentimentAnalysis.md)
 - [Machine Translation (기계 번역)](./Learn_AI/MachineTranslation.md)
+- [RAG (검색 증강 생성)](./Learn_AI/RAG.md)
+- [PEFT (파라미터 효율적 미세 조정)](./Learn_AI/PEFT.md)
+- [Object Tracking (객체 추적)](./Learn_AI/ObjectTracking.md)
+- [Pose Estimation (자세 추정)](./Learn_AI/PoseEstimation.md)
+- [Super Resolution (초해상도)](./Learn_AI/SuperResolution.md)
+- [Named Entity Recognition (개체명 인식)](./Learn_AI/NamedEntityRecognition.md)
+- [Text Summarization (문서 요약)](./Learn_AI/TextSummarization.md)
+- [Topic Modeling (토픽 모델링)](./Learn_AI/TopicModeling.md)
+- [Collaborative Filtering (협업 필터링)](./Learn_AI/CollaborativeFiltering.md)
+- [Monte Carlo Tree Search (몬테카를로 트리 탐색)](./Learn_AI/MonteCarloTreeSearch.md)
 
 ## 4. AI 심화 지식
 최신 연구 동향과 심화된 모델들을 다룹니다.
