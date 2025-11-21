@@ -9,6 +9,6 @@ Anomaly Detection(이상 탐지)은 데이터 중에서 일반적인 패턴과 �
 - **Semi-supervised (반지도 학습)**: 정상 데이터만으로 학습한 후, 학습하지 않은 패턴이 들어오면 이상치로 판단합니다. (가장 많이 쓰임)
 
 ## 3. 주요 모델 (Key Models)
-- **Autoencoders**: 정상 데이터를 입력받아 복원하도록 학습시킵니다. 이상 데이터가 들어오면 복원 오차(Reconstruction Error)가 커지는 것을 이용합니다.
+- **[Autoencoders](./Autoencoders.md)**: 정상 데이터를 입력받아 복원하도록 학습시킵니다. 이상 데이터가 들어오면 복원 오차(Reconstruction Error)가 커지는 것을 이용합니다.
 - **Isolation Forest**: 의사결정 나무(Decision Tree)를 이용하여 데이터를 무작위로 분할합니다. 이상치는 적은 횟수의 분할만으로도 고립(Isolation)되기 쉽다는 점을 이용합니다.
 - **One-Class SVM**: 데이터를 감싸는 가장 작은 경계(Hyper-sphere)를 찾아서, 그 경계 밖의 데이터를 이상치로 봅니다.

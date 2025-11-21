@@ -6,16 +6,16 @@ Computer Vision(컴퓨터 비전)은 기계가 시각적 데이터(이미지, �
 ## 2. 주요 태스크 (Key Tasks)
 
 - **Image Classification (이미지 분류)**: 이미지가 무엇인지(예: 고양이, 강아지) 판별합니다.
-- **Object Detection (객체 탐지)**: 이미지 내의 객체 위치를 찾고(Bounding Box), 종류를 분류합니다.
-- **Semantic Segmentation**: 이미지의 모든 픽셀을 특정 클래스로 분류합니다.
+- **[Object Detection (객체 탐지)](./ObjectDetection.md)**: 이미지 내의 객체 위치를 찾고(Bounding Box), 종류를 분류합니다.
+- **[Semantic Segmentation](./SemanticSegmentation.md)**: 이미지의 모든 픽셀을 특정 클래스로 분류합니다.
 - **Instance Segmentation**: 같은 클래스 내에서도 개별 객체를 구분합니다.
 
 ## 3. 핵심 기술 (Key Technologies)
 
-### 3.1. [CNN (Convolutional Neural Networks)](./DLBasic.md)
+### 3.1. [CNN (Convolutional Neural Networks)](./CNN.md)
 이미지 처리에 특화된 딥러닝 아키텍처로, 이미지의 지역적 특징을 계층적으로 학습합니다.
 
-### 3.2. Vision Transformer (ViT)
+### 3.2. [Vision Transformer (ViT)](./ViT.md)
 NLP에서 성공한 Transformer 구조를 비전 분야에 적용한 모델로, 대규모 데이터셋에서 CNN을 능가하는 성능을 보이기도 합니다.
 
 ### 3.3. [Self-Supervised Learning in Vision](./SelfSL.md)

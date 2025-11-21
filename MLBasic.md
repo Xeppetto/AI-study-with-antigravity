@@ -27,10 +27,10 @@ Machine Learning(머신러닝)은 인공지능(AI)의 하위 분야로, 컴퓨�
 
 ### 3.2. Unsupervised Learning (비지도 학습)
 정답이 없는 데이터에서 숨겨진 구조나 패턴을 찾습니다.
-- **Clustering (군집화)**: 유사한 데이터끼리 그룹화.
-- **Dimensionality Reduction (차원 축소)**: 데이터의 주요 특징을 유지하면서 차원을 줄임.
+- **[Clustering (군집화)](./Clustering.md)**: 유사한 데이터끼리 그룹화.
+- **[Dimensionality Reduction (차원 축소)](./DimensionalityReduction.md)**: 데이터의 주요 특징을 유지하면서 차원을 줄임.
 
-### 3.3. Reinforcement Learning (강화 학습)
+### 3.3. [Reinforcement Learning (강화 학습)](./ReinforcementLearning.md)
 에이전트(Agent)가 환경(Environment)과 상호작용하며 보상(Reward)을 최대화하는 행동 방식을 학습합니다.
 
 ### 3.4. [Self-Supervised Learning (SSL, 자기지도 학습)](./SelfSL.md)
@@ -39,9 +39,9 @@ Machine Learning(머신러닝)은 인공지능(AI)의 하위 분야로, 컴퓨�
 ## 4. 주요 알고리즘 (Algorithms)
 
 - **Linear Regression / Logistic Regression**: 가장 기초적인 회귀 및 분류 알고리즘.
-- **Decision Tree / Random Forest**: 의사결정 규칙을 나무 구조로 나타낸 모델.
+- **Decision Tree / Random Forest**: 의사결정 규칙을 나무 구조로 나타낸 모델. ([Ensemble Learning](./EnsembleLearning.md) 참고)
 - **SVM (Support Vector Machine)**: 데이터를 구분하는 최적의 경계선(Hyperplane)을 찾는 알고리즘.
-- **K-Means Clustering**: 대표적인 군집화 알고리즘.
+- **K-Means Clustering**: 대표적인 군집화 알고리즘. ([Clustering](./Clustering.md) 참고)
 - **[Deep Learning (딥러닝)](./DLBasic.md)**: 인공 신경망을 이용한 고도화된 머신러닝 기법.
 
 ## 5. 사전 지식 (Prerequisites)
@@ -49,10 +49,10 @@ Machine Learning(머신러닝)은 인공지능(AI)의 하위 분야로, 컴퓨�
 머신러닝을 깊이 있게 이해하기 위해서는 다음의 기초 지식이 필요합니다.
 
 1.  **Mathematics**
-    - Linear Algebra (선형대수): 행렬 연산, 벡터 공간.
-    - Calculus (미적분): 기울기(Gradient), 편미분.
-    - Probability & Statistics (확률 및 통계): 데이터 분포, 가설 검정.
+    - [Linear Algebra (선형대수)](./LinearAlgebra.md): 행렬 연산, 벡터 공간.
+    - [Calculus (미적분)](./Calculus.md): 기울기(Gradient), 편미분.
+    - [Probability & Statistics (확률 및 통계)](./ProbabilityStatistics.md): 데이터 분포, 가설 검정.
 
 2.  **Programming**
-    - Python: 가장 널리 사용되는 언어.
+    - [Python](./PythonForAI.md): 가장 널리 사용되는 언어.
     - Libraries: NumPy, Pandas, Scikit-learn, PyTorch/TensorFlow.

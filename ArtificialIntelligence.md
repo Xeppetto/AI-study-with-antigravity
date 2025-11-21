@@ -14,7 +14,7 @@ Artificial Intelligence(AI, 인공지능)는 인간의 지능이 필요한 작�
 ### 2.3. [Computer Vision (컴퓨터 비전)](./ComputerVision.md)
 컴퓨터가 이미지나 비디오를 보고 이해하도록 만드는 기술입니다.
 
-### 2.4. Natural Language Processing (NLP, 자연어 처리)
+### 2.4. [Natural Language Processing (NLP, 자연어 처리)](./NLP.md)
 컴퓨터가 인간의 언어를 이해하고 생성하도록 하는 기술입니다. (예: 번역, 챗봇)
 
 ## 3. AI의 유형 (Types of AI)

@@ -14,5 +14,5 @@ Natural Language Processing(NLP, 자연어 처리)은 컴퓨터가 인간의 언
 1.  **Rule-based**: 문법 규칙을 사람이 직접 코딩 (확장성 낮음).
 2.  **Statistical (통계적)**: 단어의 빈도수(TF-IDF) 등을 기반으로 확률적 접근.
 3.  **Word Embedding (단어 임베딩)**: Word2Vec, GloVe 등 단어를 벡터로 변환하여 의미를 포착.
-4.  **RNN / LSTM**: 순차 데이터 처리에 강점이 있어 NLP의 표준이 됨.
+4.  **[RNN / LSTM](./RNN.md)**: 순차 데이터 처리에 강점이 있어 NLP의 표준이 됨.
 5.  **[Transformer](./Transformer.md)**: [Attention](./AttentionMechanism.md) 메커니즘을 통해 병렬 처리와 장거리 의존성 문제를 해결하며 NLP를 혁신. 현재의 [BERT](./BERT.md), [GPT](./GPT.md)의 기반.

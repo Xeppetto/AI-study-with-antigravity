@@ -5,16 +5,16 @@ Generative AI(생성형 AI)는 데이터의 패턴과 구조를 학습하여, �
 
 ## 2. 주요 모델 (Key Models)
 
-### 2.1. GAN (Generative Adversarial Networks)
+### 2.1. [GAN (Generative Adversarial Networks)](./GAN.md)
 생성자(Generator)와 판별자(Discriminator)가 경쟁하며 학습하는 구조입니다. 이미지가 매우 사실적이지만 학습이 불안정할 수 있습니다.
 
-### 2.2. VAE (Variational Autoencoders)
+### 2.2. [VAE (Variational Autoencoders)](./VAE.md)
 입력 데이터를 잠재 공간(Latent Space)으로 인코딩한 후 다시 디코딩하여 생성합니다. 확률적 분포를 학습합니다.
 
-### 2.3. Diffusion Models
+### 2.3. [Diffusion Models](./DiffusionModels.md)
 데이터에 노이즈를 점진적으로 추가했다가 다시 제거하는 과정을 학습하여 고품질의 이미지를 생성합니다. (예: Stable Diffusion, DALL-E)
 
-### 2.4. LLM (Large Language Models)
+### 2.4. [LLM (Large Language Models)](./GPT.md)
 대규모 텍스트 데이터로 학습된 트랜스포머 기반 모델로, 인간과 유사한 텍스트를 생성합니다. (예: GPT-4, Claude, Gemini)
 
 ## 3. Generative AI vs. [JEPA](./JEPA.md)

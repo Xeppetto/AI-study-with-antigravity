@@ -24,5 +24,5 @@ Yann LeCun의 **Autonomous Machine Intelligence (AMI)** 비전에서 RL은 중�
 
 ## 5. 응용 분야 (Applications)
 - 게임 (AlphaGo, StarCraft AI)
-- 로봇 제어 (보행, 물체 조작)
+- [로봇 제어](./Robotics.md) (보행, 물체 조작)
 - 자원 관리 및 최적화
